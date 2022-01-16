@@ -107,7 +107,7 @@ img {
 
 .hero__image::before {
   position: absolute;
-  top: 48%;
+  top: 45%;
   left: 50%;
   content: "";
   border: 10px solid var(--color-rectangle);
@@ -310,7 +310,7 @@ input[type="checkbox"] {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(45deg, var(--color-hero-background), crimson);
+    background: linear-gradient(45deg, var(--color-hero-background), #3295fa);
     clip-path: circle(25px at calc(100% - 45px) 45px);
     transition: all 0.3s ease-in-out;
     z-index: 1;
